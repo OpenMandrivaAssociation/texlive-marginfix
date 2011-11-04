@@ -1,3 +1,9 @@
+# revision 24320
+# category Package
+# catalog-ctan /macros/latex/contrib/marginfix
+# catalog-date 2010-09-10 23:39:51 +0200
+# catalog-license lppl
+# catalog-version 0.9.1
 Name:		texlive-marginfix
 Version:	0.9.1
 Release:	1
@@ -51,6 +57,7 @@ and arranging them intelligently in the output routine.
 #- source
 %doc %{_texmfdistdir}/source/latex/marginfix/marginfix.dtx
 %doc %{_texmfdistdir}/source/latex/marginfix/marginfix.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ and arranging them intelligently in the output routine.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
