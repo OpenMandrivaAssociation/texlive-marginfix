@@ -1,12 +1,12 @@
-# revision 24320
+# revision 31598
 # category Package
 # catalog-ctan /macros/latex/contrib/marginfix
-# catalog-date 2010-09-10 23:39:51 +0200
+# catalog-date 2013-09-08 19:13:28 +0200
 # catalog-license lppl
-# catalog-version 0.9.1
+# catalog-version 1.1
 Name:		texlive-marginfix
-Version:	0.9.1
-Release:	2
+Version:	1.1.0
+Release:	1
 Summary:	Patch \marginpar to avoid overfull margins
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/marginfix
@@ -57,17 +57,3 @@ and arranging them intelligently in the output routine.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.9.1-2
-+ Revision: 753738
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.9.1-1
-+ Revision: 718955
-- texlive-marginfix
-- texlive-marginfix
-- texlive-marginfix
-- texlive-marginfix
-
