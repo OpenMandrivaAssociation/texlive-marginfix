@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-marginfix
 Version:	1.1.0
-Release:	7
+Release:	8
 Summary:	Patch \marginpar to avoid overfull margins
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/marginfix
