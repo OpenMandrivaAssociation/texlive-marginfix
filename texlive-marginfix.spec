@@ -3,7 +3,7 @@ Version:	55064
 Release:	2
 Summary:	Patch \marginpar to avoid overfull margins
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/marginfix
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/marginfix
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/marginfix.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/marginfix.doc.r%{version}.tar.xz
